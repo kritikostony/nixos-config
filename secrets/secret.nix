@@ -40,14 +40,14 @@
   };
 
   "tony-download-laptop" = {
-    rootPasswordHash = "<replace-with-root-password-hash>";
+    rootPasswordHash = "$6$PmBGiwkugd9tsW0O$gf/qxol5M3qDxmNoyhroER7dybn4LdYgeBaVQMumc5i5pwB/oZcL3UTwSHkgg43EFsW5iUvf/3FLbNxbFuwKw/";
     primaryUser = {
-      name = "download";
+      name = "tony";
       description = "Download workstation user";
-      passwordHash = "<replace-with-download-user-password-hash>";
+      passwordHash = "$6$PmBGiwkugd9tsW0O$gf/qxol5M3qDxmNoyhroER7dybn4LdYgeBaVQMumc5i5pwB/oZcL3UTwSHkgg43EFsW5iUvf/3FLbNxbFuwKw/";
       extraGroups = [ "wheel" "networkmanager" ];
       authorizedKeys = [
-        "ssh-ed25519 AAA...replace-this-with-your-key"
+        "ssh-ed25519 AAA...$6$PmBGiwkugd9tsW0O$gf/qxol5M3qDxmNoyhroER7dybn4LdYgeBaVQMumc5i5pwB/oZcL3UTwSHkgg43EFsW5iUvf/3FLbNxbFuwKw/"
       ];
     };
   };
